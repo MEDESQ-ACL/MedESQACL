@@ -1,6 +1,6 @@
 # Anonymous ACL Submission
 
-This repository contains the code and a representative subset of the dataset for review purposes.
+This repository contains a representative subset of the dataset for review purposes.
 
 The full dataset and codebase will be publicly released upon acceptance.
 
@@ -8,7 +8,6 @@ The full dataset and codebase will be publicly released upon acceptance.
 
 - complexity_protocol/
 - dataset_subset/
-- race_esq_pipeline/
 
 ## Notes
 

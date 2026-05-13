@@ -1,4 +1,4 @@
-# Anonymous ACL Submission
+# Anonymous EMNLP Submission
 
 This repository contains a representative subset of the dataset for review purposes.
 

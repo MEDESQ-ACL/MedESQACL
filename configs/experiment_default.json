@@ -1,0 +1,21 @@
+{
+  "temperature": 0.2,
+  "max_tokens": 600,
+  "sample_per_level": 200,
+  "default_seed": 13,
+  "metrics": [
+    "Executable Code Ratio (ECR)",
+    "Pass Rate (PR)",
+    "query latency"
+  ],
+  "models_from_paper": [
+    "GPT4",
+    "GPT4o",
+    "GPT5",
+    "Grok4",
+    "GLM4.5",
+    "Qwen3",
+    "RACE-ESQ"
+  ],
+  "notes": "API endpoints and exact model names should be set through environment variables for reproducibility."
+}

@@ -77,6 +77,3 @@ bash scripts/06_latency_with_elasticsearch.sh data/eval/eval_200_per_level_seed1
 - **Pass Rate (PR):** exact canonical query match by default; with Elasticsearch enabled, PR compares normalized execution results between predicted and gold queries.
 - **Latency:** repeated `_search` execution time in milliseconds.
 
-## Anonymity note
-
-This ZIP is ready to upload to an anonymous repository service or supplementary-material system. Before de-anonymization, avoid adding author names, ORCID IDs, personal emails, institution-specific cluster paths, or non-anonymous Git remotes.

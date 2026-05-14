@@ -1,0 +1,5 @@
+# Core dataset construction, validation, retrieval, and exact-match evaluation use only the Python standard library.
+# Optional dependencies for API-based experiments and Elasticsearch latency/pass-rate evaluation:
+openai>=1.0.0
+elasticsearch>=8.13.0
+pytest>=8.0.0

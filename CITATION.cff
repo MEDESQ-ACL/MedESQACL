@@ -1,0 +1,7 @@
+cff-version: 1.2.0
+message: "Please cite the corresponding anonymous EMNLP 2026 submission during review."
+title: "MedESQ: Rethinking Efficient Text-to-NoSQL Querying Generation with a Complexity Taxonomy for Lucene Data Structures"
+authors:
+  - family-names: "Anonymous"
+    given-names: "Authors"
+year: 2026

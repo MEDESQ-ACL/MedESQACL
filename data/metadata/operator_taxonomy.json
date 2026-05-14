@@ -1,0 +1,78 @@
+{
+  "classes": [
+    {
+      "class": "A",
+      "name": "Constant Lookup",
+      "tier": "easy",
+      "operators": [
+        "GET _doc",
+        "ids"
+      ],
+      "complexity": "O(1)"
+    },
+    {
+      "class": "B",
+      "name": "Single-Term",
+      "tier": "easy",
+      "operators": [
+        "term",
+        "terms"
+      ],
+      "complexity": "O(|t| + df(t)) ≈ O(df(t))"
+    },
+    {
+      "class": "C",
+      "name": "Boolean Composition",
+      "tier": "easy",
+      "operators": [
+        "bool.must",
+        "bool.should",
+        "bool.filter"
+      ],
+      "complexity": "O(sum_i df(t_i))"
+    },
+    {
+      "class": "D",
+      "name": "Range/Prefix",
+      "tier": "medium",
+      "operators": [
+        "range",
+        "prefix"
+      ],
+      "complexity": "Numeric: O(log N + R); String: O(|prefix| + M + sum_i df(t_i))"
+    },
+    {
+      "class": "E",
+      "name": "Pattern Query",
+      "tier": "medium",
+      "operators": [
+        "wildcard",
+        "regexp"
+      ],
+      "complexity": "O(W + M + sum_i df(t_i))"
+    },
+    {
+      "class": "F",
+      "name": "Full-text",
+      "tier": "hard",
+      "operators": [
+        "match",
+        "match_phrase",
+        "multi_match",
+        "query_string"
+      ],
+      "complexity": "O(sum_i df(t_i)) + O(R log K)"
+    },
+    {
+      "class": "G",
+      "name": "Aggregation/Sort",
+      "tier": "hard",
+      "operators": [
+        "aggs",
+        "sort"
+      ],
+      "complexity": "Base match + O(R) + O(U log B) or O(R log K)"
+    }
+  ],
+  "tier_rule": "The highest-cost operator present determines the query difficulty tier."
+}

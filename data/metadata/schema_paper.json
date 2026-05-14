@@ -1,0 +1,31 @@
+{
+  "schema_name": "paper_prompt_schema",
+  "fields": [
+    "RECVDATE",
+    "STATE",
+    "AGE_YRS",
+    "VAERS_ID",
+    "SEX",
+    "SYMPTOM_TEXT",
+    "DIED",
+    "ER_VISIT",
+    "L_THREAT",
+    "HOSPITAL",
+    "HOSPDAYS",
+    "DISABLE",
+    "VAX_DATE",
+    "LAB_DATA",
+    "OTHER_MEDS",
+    "CUR_ILL",
+    "HISTORY",
+    "PRIOR_VAX",
+    "TODAYS_DATE",
+    "OFC_VISIT",
+    "VAX_TYPE",
+    "VAX_MANU",
+    "VAX_LOT",
+    "VAX_DOSE_SERIES",
+    "VAX_NAME",
+    "ALLERGIES"
+  ]
+}

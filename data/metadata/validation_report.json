@@ -1,0 +1,99 @@
+{
+  "dataset_name": "MedESQ",
+  "source": "Spreadsheet-derived anonymous package",
+  "template_rows_by_difficulty": {
+    "easy": 582,
+    "medium": 402,
+    "hard": 1566
+  },
+  "expanded_examples_by_difficulty_all": {
+    "easy": 582,
+    "medium": 1608,
+    "hard": 4698
+  },
+  "expanded_examples_by_difficulty_clean_json": {
+    "easy": 581,
+    "medium": 1604,
+    "hard": 4611
+  },
+  "expanded_examples_total_all": 6888,
+  "expanded_examples_total_clean_json": 6796,
+  "query_parse_status_counts": {
+    "rest_endpoint": 1,
+    "json_valid": 6796,
+    "json_invalid": 91
+  },
+  "operator_counts": {
+    "bool": 6794,
+    "term": 2278,
+    "match": 1890,
+    "terms": 1539,
+    "prefix": 1282,
+    "multi_match": 1167,
+    "range": 1106,
+    "sort": 1080,
+    "wildcard": 891,
+    "query_string": 831,
+    "regexp": 776,
+    "aggs": 381,
+    "match_phrase": 270,
+    "ids": 138
+  },
+  "observed_field_counts": {
+    "query": 996,
+    "OFC_VISIT": 481,
+    "ONSET_DATE": 448,
+    "VAX_NAME": 438,
+    "SEX": 433,
+    "ER_VISIT": 431,
+    "VAX_ROUTE": 423,
+    "DISABLE": 411,
+    "ER_ED_VISIT": 410,
+    "PRIOR_VAX": 408,
+    "OTHER_MEDS": 407,
+    "V_FUNDBY": 406,
+    "VAX_DOSE_SERIES": 404,
+    "CUR_ILL": 402,
+    "HOSPITAL": 396,
+    "VAX_LOT": 393,
+    "STATE": 393,
+    "LAB_DATA": 390,
+    "VAX_TYPE": 388,
+    "RECOVD": 388,
+    "SYMPTOM_TEXT": 383,
+    "L_THREAT": 382,
+    "RECVDATE": 381,
+    "DIED": 379,
+    "V_ADMINBY": 371,
+    "TODAYS_DATE": 370,
+    "VAX_DATE": 352,
+    "VAX_SITE": 352,
+    "SPLTTYPE": 352,
+    "ALLERGIES": 346,
+    "HISTORY": 338,
+    "VAX_MANU": 335,
+    "SYMPTOM3": 157,
+    "SYMPTOM5": 153,
+    "SYMPTOM2": 149,
+    "SYMPTOM4": 145,
+    "SYMPTOM1": 144,
+    "AGE_YRS": 121,
+    "FORM_VERS": 113,
+    "CAGE_YR": 113,
+    "VAERS_ID": 103,
+    "CAGE_MO": 95,
+    "HOSPDAYS": 91,
+    "VAERS_ID.1": 91,
+    "NUMDAYS": 85,
+    "Patient_ID.keyword": 2
+  },
+  "computed_vs_assigned_complexity_mismatch_counts": {
+    "('hard', 'easy')": 90
+  },
+  "notes": [
+    "Clean examples require a JSON-valid Elasticsearch query body.",
+    "One REST endpoint row and malformed JSON rows are retained in medesq_all.jsonl but excluded from medesq_clean.jsonl and default splits.",
+    "Question variants in Medium and Hard are expanded into separate NL-ESQ pairs while sharing the same template_id.",
+    "The manuscript reports 1,887 easy, 1,737 medium, and 2,779 hard examples; the uploaded spreadsheet-derived clean JSON subset contains the counts shown here. This package preserves the discrepancy for auditability."
+  ]
+}

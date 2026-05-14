@@ -1,0 +1,146 @@
+{
+  "summary": [
+    {
+      "model": "gpt-5",
+      "method": "race",
+      "difficulty": "easy",
+      "n": 12,
+      "ECR": 1.0,
+      "PR": 1.0
+    }
+  ],
+  "items": [
+    {
+      "id": "medesq_easy_r0004_narrative_question",
+      "difficulty": "easy",
+      "method": "race",
+      "model": "gpt-5",
+      "executable": true,
+      "passed": true,
+      "error": "",
+      "pred_latency_ms": null,
+      "gold_latency_ms": null
+    },
+    {
+      "id": "medesq_easy_r0005_narrative_question",
+      "difficulty": "easy",
+      "method": "race",
+      "model": "gpt-5",
+      "executable": true,
+      "passed": true,
+      "error": "",
+      "pred_latency_ms": null,
+      "gold_latency_ms": null
+    },
+    {
+      "id": "medesq_easy_r0017_narrative_question",
+      "difficulty": "easy",
+      "method": "race",
+      "model": "gpt-5",
+      "executable": true,
+      "passed": true,
+      "error": "",
+      "pred_latency_ms": null,
+      "gold_latency_ms": null
+    },
+    {
+      "id": "medesq_easy_r0019_narrative_question",
+      "difficulty": "easy",
+      "method": "race",
+      "model": "gpt-5",
+      "executable": true,
+      "passed": true,
+      "error": "",
+      "pred_latency_ms": null,
+      "gold_latency_ms": null
+    },
+    {
+      "id": "medesq_easy_r0021_narrative_question",
+      "difficulty": "easy",
+      "method": "race",
+      "model": "gpt-5",
+      "executable": true,
+      "passed": true,
+      "error": "",
+      "pred_latency_ms": null,
+      "gold_latency_ms": null
+    },
+    {
+      "id": "medesq_easy_r0022_narrative_question",
+      "difficulty": "easy",
+      "method": "race",
+      "model": "gpt-5",
+      "executable": true,
+      "passed": true,
+      "error": "",
+      "pred_latency_ms": null,
+      "gold_latency_ms": null
+    },
+    {
+      "id": "medesq_easy_r0024_narrative_question",
+      "difficulty": "easy",
+      "method": "race",
+      "model": "gpt-5",
+      "executable": true,
+      "passed": true,
+      "error": "",
+      "pred_latency_ms": null,
+      "gold_latency_ms": null
+    },
+    {
+      "id": "medesq_easy_r0026_narrative_question",
+      "difficulty": "easy",
+      "method": "race",
+      "model": "gpt-5",
+      "executable": true,
+      "passed": true,
+      "error": "",
+      "pred_latency_ms": null,
+      "gold_latency_ms": null
+    },
+    {
+      "id": "medesq_easy_r0033_narrative_question",
+      "difficulty": "easy",
+      "method": "race",
+      "model": "gpt-5",
+      "executable": true,
+      "passed": true,
+      "error": "",
+      "pred_latency_ms": null,
+      "gold_latency_ms": null
+    },
+    {
+      "id": "medesq_easy_r0038_narrative_question",
+      "difficulty": "easy",
+      "method": "race",
+      "model": "gpt-5",
+      "executable": true,
+      "passed": true,
+      "error": "",
+      "pred_latency_ms": null,
+      "gold_latency_ms": null
+    },
+    {
+      "id": "medesq_easy_r0042_narrative_question",
+      "difficulty": "easy",
+      "method": "race",
+      "model": "gpt-5",
+      "executable": true,
+      "passed": true,
+      "error": "",
+      "pred_latency_ms": null,
+      "gold_latency_ms": null
+    },
+    {
+      "id": "medesq_easy_r0047_narrative_question",
+      "difficulty": "easy",
+      "method": "race",
+      "model": "gpt-5",
+      "executable": true,
+      "passed": true,
+      "error": "",
+      "pred_latency_ms": null,
+      "gold_latency_ms": null
+    }
+  ]
+}

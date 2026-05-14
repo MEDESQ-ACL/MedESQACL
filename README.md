@@ -2,7 +2,6 @@
 
 This repository contains the anonymous dataset and experiment package for **MedESQ: Rethinking Efficient Text-to-NoSQL Querying Generation with a Complexity Taxonomy for Lucene Data Structures**.
 
-The package is designed for anonymous review. It contains no author names, no institution-specific paths, and no personal Git metadata. The original spreadsheet was exported into metadata-free CSV/JSONL files for review.
 
 ## What is included
 
